@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_child"
+    app:startDestination="@id/view_child_main">
+
+    <fragment
+        android:id="@+id/view_child_main"
+        android:name="com.viettelpost.remoteconfig.demonavigation.ui.main.view_child_main"
+        android:label="fragment_view_child_main"
+        tools:layout="@layout/fragment_view_child_main" />
+
+</navigation>
